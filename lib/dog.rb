@@ -9,7 +9,7 @@ class Dog
   
   def self.all
     @@all.each do |dogs|
-      puts dogs.instance_variable_get(@name)
+      puts dogs.instance_variable_get(:@name)
     end 
   end 
   
