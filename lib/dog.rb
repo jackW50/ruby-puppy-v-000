@@ -9,7 +9,7 @@ class Dog
   
   def self.all
     @@all. do |dogs|
-      puts dogs.name
+      puts dogs.get_instance_variable(:name)
     end 
   end 
   
