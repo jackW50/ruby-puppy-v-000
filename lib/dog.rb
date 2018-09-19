@@ -8,7 +8,7 @@ class Dog
   end 
   
   def self.all
-    @@all. do |dogs|
+    @@all.each do |dogs|
       puts dogs.instance_variable_get(:name)
     end 
   end 
